@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <default revision="14"
+           remote="github"
+           sync-j="8" />
+
+  <!-- Base manifest -->
+  <project name="OrionOS-Device/android_manifest" path="manifest" revision="14" />
+
+  <!-- Device Tree -->
+  <project name="Transsion-Dev/device_tecno_KJ7" path="device/tecno/KJ7" revision="14" />
+
+  <!-- Vendor Tree -->
+  <project name="Transsion-Dev/vendor_tecno_KJ7" path="vendor/tecno/KJ7" revision="14" />
+
+  <!-- Kernel -->
+  <project name="Transsion-Dev/device_tecno_KJ7-kernel" path="kernel/tecno/KJ7" revision="14" />
+
+  <!-- Hardware (optional) -->
+  <project name="Transsion-Dev/android_hardware_transsion" path="hardware/transsion" revision="14" />
+</manifest>
