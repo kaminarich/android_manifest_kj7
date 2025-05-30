@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github"
-          fetch="https://github.com/" />
 
-  <default revision="14"
-           remote="github"
-           sync-j="8" />
+    <remote name="transsion"
+            fetch="https://github.com/Transsion-Dev"
+            clone-depth="1" />
 
-  <!-- Base manifest -->
-  <project name="OrionOS-Device/android_manifest" path="manifest" revision="14" />
+    <!-- Device -->
+    <project path="device/tecno/KJ7" name="device_tecno_KJ7" remote="transsion" revision="14.0" />
+    <project path="device/tecno/mt6789-common" name="device_tecno_mt6789-common" remote="transsion" revision="14.0" />
 
-  <!-- Device Tree -->
-  <project name="Transsion-Dev/device_tecno_KJ7" path="device/tecno/KJ7" revision="14" />
+    <!-- Vendor -->
+    <project path="vendor/tecno/KJ7" name="vendor_tecno_KJ7" remote="transsion" revision="14.0" />
+    <project path="vendor/tecno/mt6789-common" name="vendor_tecno_mt6789-common" remote="transsion" revision="14.0" />
 
-  <!-- Vendor Tree -->
-  <project name="Transsion-Dev/vendor_tecno_KJ7" path="vendor/tecno/KJ7" revision="14" />
+    <!-- Kernel -->
+    <project path="device/tecno/KJ7-kernel" name="device_tecno_KJ7-kernel" remote="transsion" revision="14.0" />
 
-  <!-- Kernel -->
-  <project name="Transsion-Dev/device_tecno_KJ7-kernel" path="kernel/tecno/KJ7" revision="14" />
+    <!-- Hardware -->
+    <project path="hardware/transsion" name="android_hardware_transsion" remote="transsion" revision="14.0" />
 
-  <!-- Hardware (optional) -->
-  <project name="Transsion-Dev/android_hardware_transsion" path="hardware/transsion" revision="14" />
 </manifest>
