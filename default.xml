@@ -7,11 +7,9 @@
 
     <!-- Device -->
     <project path="device/tecno/KJ7" name="device_tecno_KJ7" remote="transsion" revision="14.0" />
-    <project path="device/tecno/mt6789-common" name="device_tecno_mt6789-common" remote="transsion" revision="14.0" />
 
     <!-- Vendor -->
     <project path="vendor/tecno/KJ7" name="vendor_tecno_KJ7" remote="transsion" revision="14.0" />
-    <project path="vendor/tecno/mt6789-common" name="vendor_tecno_mt6789-common" remote="transsion" revision="14.0" />
 
     <!-- Kernel -->
     <project path="device/tecno/KJ7-kernel" name="device_tecno_KJ7-kernel" remote="transsion" revision="14.0" />
